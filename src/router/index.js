@@ -19,9 +19,24 @@ const router = createRouter({
     },
 
     {
-      path: '/page1',
-      name: 'page1',
-      component: () => import('../views/AddFirstPageView.vue')
+      path: '/page01',
+      name: 'page01',
+      component: () => import('../views/01_AddFirstPageView.vue')
+    },
+    {
+      path: '/page02',
+      name: 'page02',
+      component: () => import('../views/02_TemplateSyntax.vue')
+    },
+    {
+      path: '/page03',
+      name: 'page03',
+      component: () => import('../views/03_Reactivity-fundamentals.vue')
+    },
+    {
+      path: '/page12',
+      name: 'page12',
+      component: () => import('../views/12_Template-refs.vue')
     }
   ]
 })

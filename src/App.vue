@@ -12,7 +12,11 @@ import HelloWorld from './components/HelloWorld.vue'
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <!-- <RouterLink to="/about">About</RouterLink> -->
+        <RouterLink to="/page01">第一個空白頁</RouterLink>
+        <RouterLink to="/page02">文字插值</RouterLink>
+        <RouterLink to="/page03">響應式基礎</RouterLink>
+        <RouterLink to="/page12">模板</RouterLink>
       </nav>
     </div>
   </header>
