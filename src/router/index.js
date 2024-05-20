@@ -29,9 +29,19 @@ const router = createRouter({
       component: () => import('../views/02_TemplateSyntax.vue')
     },
     {
-      path: '/page03',
-      name: 'page03',
-      component: () => import('../views/03_Reactivity-fundamentals.vue')
+      path: '/page03/1',
+      name: 'page03/1',
+      component: () => import('../views/03_1_Reactivity-fundamentals.vue')
+    },
+    {
+      path: '/page03/2',
+      name: 'page03/2',
+      component: () => import('../views/03_2_Reactivity-fundamentals_SFC.vue')
+    },
+    {
+      path: '/page03/3',
+      name: 'page03/3',
+      component: () => import('../views/03_3_Reactivity-fundamentals_reacitive.vue')
     },
     {
       path: '/page12',

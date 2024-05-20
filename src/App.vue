@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
@@ -8,15 +8,17 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <!-- <HelloWorld msg="You did it!" /> -->
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <!-- <RouterLink to="/about">About</RouterLink> -->
-        <RouterLink to="/page01">第一個空白頁</RouterLink>
-        <RouterLink to="/page02">文字插值</RouterLink>
-        <RouterLink to="/page03">響應式基礎</RouterLink>
-        <RouterLink to="/page12">模板</RouterLink>
+        <RouterLink to="/page01">1. 第一個空白頁</RouterLink>
+        <RouterLink to="/page02">2. 文字插值</RouterLink>
+        <RouterLink to="/page03/1">3. 響應式基礎1</RouterLink>
+        <RouterLink to="/page03/2">2</RouterLink>
+        <RouterLink to="/page03/3">3</RouterLink>
+        <RouterLink to="/page12">12. 模板</RouterLink>
       </nav>
     </div>
   </header>
