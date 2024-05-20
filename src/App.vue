@@ -11,6 +11,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <!-- <HelloWorld msg="You did it!" /> -->
 
       <nav>
+        <h3>文件研究</h3>
         <RouterLink to="/">Home</RouterLink>
         <!-- <RouterLink to="/about">About</RouterLink> -->
         <RouterLink to="/page01">1. 第一個空白頁</RouterLink>
@@ -18,7 +19,17 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/page03/1">3. 響應式基礎1</RouterLink>
         <RouterLink to="/page03/2">2</RouterLink>
         <RouterLink to="/page03/3">3</RouterLink>
+        <RouterLink to="/page04">4. 計算屬性</RouterLink>
         <RouterLink to="/page12">12. 模板</RouterLink>
+        <br />
+        <hr />
+        <h3>互動入門</h3>
+        <RouterLink to="/t1">01. 聲明式渲染</RouterLink>
+        <RouterLink to="/t2">02. Attribute 綁定</RouterLink>
+        <RouterLink to="/t3">03. 事件監聽</RouterLink>
+        <RouterLink to="/t4">04. 表單綁定</RouterLink>
+        <RouterLink to="/t5">05. 條件渲染</RouterLink>
+        <RouterLink to="/t6">06. 清單渲染</RouterLink>
       </nav>
     </div>
   </header>

@@ -44,9 +44,44 @@ const router = createRouter({
       component: () => import('../views/03_3_Reactivity-fundamentals_reacitive.vue')
     },
     {
+      path: '/page04',
+      name: 'page04',
+      component: () => import('../views/04_computed.vue')
+    },
+    {
       path: '/page12',
       name: 'page12',
       component: () => import('../views/12_Template-refs.vue')
+    },
+    {
+      path: '/t1',
+      name: 't1',
+      component: () => import('../views/tutorial/01_Declarative-Rendering.vue')
+    },
+    {
+      path: '/t2',
+      name: 't2',
+      component: () => import('../views/tutorial/02_Attribute-Bindings.vue')
+    },
+    {
+      path: '/t3',
+      name: 't3',
+      component: () => import('../views/tutorial/03_Event-Listeners.vue')
+    },
+    {
+      path: '/t4',
+      name: 't4',
+      component: () => import('../views/tutorial/04_Form-Bindings.vue')
+    },
+    {
+      path: '/t5',
+      name: 't5',
+      component: () => import('../views/tutorial/05_Conditional-Rendering.vue')
+    },
+    {
+      path: '/t6',
+      name: 't6',
+      component: () => import('../views/tutorial/06_List-Rendering.vue')
     }
   ]
 })
