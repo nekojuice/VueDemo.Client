@@ -30,6 +30,8 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/t4">04. 表單綁定</RouterLink>
         <RouterLink to="/t5">05. 條件渲染</RouterLink>
         <RouterLink to="/t6">06. 清單渲染</RouterLink>
+        <RouterLink to="/t7">07. 計算屬性</RouterLink>
+        <RouterLink to="/t8">08. 生命週期和模板引用</RouterLink>
       </nav>
     </div>
   </header>

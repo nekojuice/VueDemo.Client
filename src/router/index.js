@@ -82,6 +82,21 @@ const router = createRouter({
       path: '/t6',
       name: 't6',
       component: () => import('../views/tutorial/06_List-Rendering.vue')
+    },
+    {
+      path: '/t7',
+      name: 't7',
+      component: () => import('../views/tutorial/07_Computed-Property.vue')
+    },
+    {
+      path: '/t8',
+      name: 't8',
+      component: () => import('../views/tutorial/08_Lifecycle-and-Template-Refs.vue')
+    },
+    {
+      path: '/t9',
+      name: 't9',
+      component: () => import('../views/tutorial/09_Watchers.vue')
     }
   ]
 })
