@@ -1,5 +1,6 @@
 <script setup>
 import { useCatStore } from '@/stores/catStore.js'
+
 const catStore = useCatStore()
 
 // /**
@@ -16,7 +17,8 @@ const catStore = useCatStore()
   <div>
     <p>first meet pinia!!</p>
     <p>{{ catStore.behavor }}</p>
-    <button type="button" @click="catStore.flipIsHappy">swich the cat mood</button>
+    <button type="button" @click="catStore.flipIsHappy">switch the cat mood</button>
+    <router-link :to="{ name: 'page01' }">go to deep page!</router-link>
   </div>
 </template>
 
