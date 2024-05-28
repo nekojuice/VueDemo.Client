@@ -119,6 +119,21 @@ const router = createRouter({
           ]
         }
       ]
+    },
+    {
+      path: '/pinia',
+      children: [
+        {
+          path: '01',
+          name: 'p01',
+          component: () => import('../views/pinia/01_meetPinia.vue')
+        },
+        {
+          path: '02',
+          name: 'p02',
+          component: () => import('../views/pinia/02_moreRealExample.vue')
+        }
+      ]
     }
   ]
 })
